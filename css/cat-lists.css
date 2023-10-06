@@ -1,0 +1,8 @@
+.top-image {
+    border: 10px solid var(--border-color);
+    padding: 5px;
+    width: 50%;
+    margin: 40px auto;
+    border-radius: 50%;
+    box-shadow: 0 0 55px var(--shadow-color);
+}

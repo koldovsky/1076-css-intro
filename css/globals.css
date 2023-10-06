@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --accent-color: rgb(0, 255, 0);
+    --text-color: black;
+    --shadow-color: rgb(128, 0, 128); 
+    --shadow-color-alternate: red; 
+    --background-color: aqua;
+    --border-color: red;
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 20px var(--shadow-color-alternate);
+}
+
+h1 {
+    color: var(--accent-color);
+    text-align: center;
+    font-family: 'Prata', serif;
+}
+
